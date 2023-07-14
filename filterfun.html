@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FilterFun</title>
+    
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<link rel="stylesheet" type="text/css" href="styles/filterfun.css" />
+    
+<link rel="icon" href="img/filterfunfav.png" type="image/png">
+    
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="script/filterfun.js"></script>
+
+</head>
+
+<body>
+
+<div id="content" style="margin-bottom:40px;">
+    <!-- intro -->
+    <center><h2>FilterFun Project</h2></center>
+    <p>A Javascript image filtering project for Duke University's "Programming Foundations with JavaScript, HTML and CSS" course offered on Coursera!</p>
+        
+    <p>Last updated: July 14, 2023</p>
+    
+    
+    <hr />
+    
+    <!-- app -->
+    <center>
+    
+    <p>Upload image:
+        <input type="file" 
+             multiple="false"
+             accept="image/*"
+             id="imgup"
+             onchange="upload()">
+    </p>
+
+    <canvas id="can"></canvas>
+
+    <p>
+        <input type="button"
+             id="gray"
+             value="Grayscale"
+             onclick="makeGray()"
+             >
+        
+        <input type="button"
+             id="red"
+             value="Red Filter"
+             onclick="makeRed()"
+             >
+        
+        <input type="button"
+             id="rainbow"
+             value="Rainbow Filter"
+             onclick="makeRainbow()"
+             >
+        
+        <input type="button"
+             id="blur"
+             value="Blur Filter"
+             onclick="doBlur()"
+             >
+        
+        <input type="button"
+             id="rainframe"
+             value="Rainbow Frame"
+             onclick="rainbowFrame()"
+             >
+    </p>
+    <p>
+        
+        <input type="button"
+             id="reset"
+             value="Reset Image"
+             onclick="resetImg()"
+             >
+    
+        <input type="button"
+             id="clear"
+             value="Clear Canvas"
+             onclick="clearCan()"
+             >
+    </p>
+        
+    </center>
+    
+    <hr />
+    
+    <!-- credit -->
+    
+    <a href="https://www.freepik.com/search?format=search&last_filter=query&last_value=image&query=image&type=icon">Favicon by Kirill Kazachek</a>
+    
+</div>
+
+</body>
+</html>

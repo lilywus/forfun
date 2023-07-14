@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font: 16px Arial, sans-serif;
+	margin-bottom:5%;
+	padding: 0;
+	color: #000;
+	line-height:120%;
+}
+
+::-webkit-scrollbar {
+    width:5px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    width:1px;
+    background-color: #000;
+    border-right: 4px solid #fff;
+}
+
+hr {
+    margin-top:7px;
+    margin-bottom:7px;
+    border-width:1px 0px 0px 0px;
+    border-style:solid;
+    border-color:#32b4ff;
+    height:1px;
+}
+
+a:link {
+	color: #666;
+	text-decoration: none; 
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+
+b {
+    color:#3fb9ff;
+}
+
+i {
+    color:#10e597;
+}
+
+h1 {
+    font:30px Helvetica, Arial, sans-serif;
+    margin:0;
+}
+
+h2 {
+    font:26px Helvetica, Arial, sans-serif;
+    margin:0;
+}
+
+h3 {
+    font:22px Helvetica, Arial, sans-serif;
+    margin:0;
+}
+
+h4 {
+    font:18px Helvetica, Arial, sans-serif;
+    margin:0;
+}
+
+#content {
+    width:50%;
+    height:70%;
+    overflow:auto;
+    margin:5% auto;
+    padding:20px;
+    border:1px solid #32b4ff;
+}
+
+#links {
+    margin:0 auto;
+}
+
+#links a {
+    display:inline-block;
+    text-align:center;
+    width:80px;
+    margin:5px auto;
+    padding:7px;
+    border:1px solid #32b4ff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#links a:link, a:visited, a:focus, a:active {
+    background:none;
+    color:#0ea2f7;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#links a:hover {
+    background:#32b4ff;
+    color:#fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
