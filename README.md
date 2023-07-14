@@ -1,0 +1,2 @@
+# forfun
+Random projects collection
